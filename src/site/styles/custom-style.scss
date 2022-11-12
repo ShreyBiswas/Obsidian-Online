@@ -1,7 +1,4 @@
 body {
-    .filetree-sidebar {
-        z-index: 11;
-    }
     /***
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
@@ -13,4 +10,8 @@ body {
     //  h1 {
     //   color: black;
     //  }
+}
+
+body:before {
+    z-index: 11;
 }
