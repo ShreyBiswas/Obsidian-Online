@@ -14,44 +14,45 @@ body {
       font-size: 72%;
      }
 
+
     /* clean-embeds.css */
     .markdown-embed-title {
-      display: none;
+      display: none !important;
     }
 
     .markdown-embed .el-h1 h1 {
-      margin: 0;
+      margin: 0 !important;
     }
 
     /* Hide block IDs on inactive lines */
     .cm-blockid {
-      opacity: 0;
+      opacity: 0 !important;
     }
     /* Show block IDs on active lines */
     .cm-active .cm-blockid {
-      opacity: 1;
+      opacity: 1 !important;
     }
 
     /* gradient-linebreak.css */
     .content {
-      font-size: 100%;
+      font-size: 100% !important;
     }
 
     hr {
-      margin-block-start: 3em;
-      margin-block-end: 2em;
-      border: none;
-      height: 0;
-      border-bottom: 1px solid;
-      border-image-slice: 1;
-      border-width: 1px;
+      margin-block-start: 3em !important;
+      margin-block-end: 2em !important;
+      border: none !important;
+      height: 0 !important;
+      border-bottom: 1px solid !important;
+      border-image-slice: 1 !important;
+      border-width: 1px !important;
       border-image-source: linear-gradient(
         to right,
         transparent,
         slategrey 50%,
         transparent
-      );
-      opacity: 0.8;
+      ) !important;
+      opacity: 0.8 !important;
     }
 
     /* highlightr-to-colour.css */
@@ -59,11 +60,11 @@ body {
     /* restyle the vanilla highlight to rosebox color */
     .cm-s-obsidian span.cm-formatting-highlight,
     .cm-s-obsidian span.cm-highlight {
-      --text-highlight-bg: #a5756233;
+      --text-highlight-bg: #a5756233 !important;
     }
 
     .theme-dark .markdown-preview-view mark {
-      background: #a5756233;
+      background: #a5756233 !important;
     }
 
     /* remove border radius from normal highlight */
@@ -96,7 +97,7 @@ body {
       color: #cacfd9a6 !important;
     }
     mark.hltr-aa {
-      color: var(--text-normal);
+      color: var(--text-normal) !important;
     }
 
     /* instead of background, change text color for defined highlights */
@@ -123,22 +124,22 @@ body {
       overflow-x: none !important;
     }
     .menu.highlighterContainer .menu-item {
-      padding: 0;
-      margin: 0;
-      border-bottom: transparent;
-      border-radius: 5px;
+      padding: 0 !important;
+      margin: 0 !important;
+      border-bottom: transparent !important;
+      border-radius: 5px !important;
 
-      justify-content: center;
-      align-items: center;
+      justify-content: center !important;
+      align-items: center !important;
 
-      aspect-ratio: 1/1;
+      aspect-ratio: 1/1 !important;
     }
     .menu.highlighterContainer .menu-item .menu-item-title {
-      display: none;
+      display: none !important;
     }
     .menu.highlighterContainer .menu-item .menu-item-icon {
-      height: min-content;
-      width: min-content;
+      height: min-content !important;
+      width: min-content !important;
     }
 
     /* consistent icon stroke width with others */
