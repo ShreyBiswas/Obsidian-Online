@@ -1,3 +1,9 @@
+/* Contains snippets from Vault:
+clean-embeds
+gradient-linebreak
+highlightr-to-colour
+*/
+
 body {
     /***
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
@@ -7,10 +13,146 @@ body {
      .content {
       font-size: 72%;
      }
+
+    /* clean-embeds.css */
+    .markdown-embed-title {
+      display: none;
+    }
+
+    .markdown-embed .el-h1 h1 {
+      margin: 0;
+    }
+
+    /* Hide block IDs on inactive lines */
+    .cm-blockid {
+      opacity: 0;
+    }
+    /* Show block IDs on active lines */
+    .cm-active .cm-blockid {
+      opacity: 1;
+    }
+
+    /* gradient-linebreak.css */
+    .content {
+      font-size: 100%;
+    }
+
+    hr {
+      margin-block-start: 3em;
+      margin-block-end: 2em;
+      border: none;
+      height: 0;
+      border-bottom: 1px solid;
+      border-image-slice: 1;
+      border-width: 1px;
+      border-image-source: linear-gradient(
+        to right,
+        transparent,
+        slategrey 50%,
+        transparent
+      );
+      opacity: 0.8;
+    }
+
+    /* highlightr-to-colour.css */
+
+    /* restyle the vanilla highlight to rosebox color */
+    .cm-s-obsidian span.cm-formatting-highlight,
+    .cm-s-obsidian span.cm-highlight {
+      --text-highlight-bg: #a5756233;
+    }
+
+    .theme-dark .markdown-preview-view mark {
+      background: #a5756233;
+    }
+
+    /* remove border radius from normal highlight */
+    .highlightr-rounded span.cm-highlight:not(.hltr-aa) {
+      border-radius: 0px !important;
+    }
+
+    mark.hltr-pink {
+      color: #fa93e0 !important;
+    }
+    mark.hltr-red {
+      color: #ff4476fd !important;
+    }
+    mark.hltr-yellow {
+      color: #ffdd02e7 !important;
+    }
+    mark.hltr-green {
+      color: #4df64de4 !important;
+    }
+    mark.hltr-cyan {
+      color: #00ffc3ef !important;
+    }
+    mark.hltr-blue {
+      color: #56c0f9ea !important;
+    }
+    mark.hltr-purple {
+      color: #b686ffea !important;
+    }
+    mark.hltr-grey {
+      color: #cacfd9a6 !important;
+    }
+    mark.hltr-aa {
+      color: var(--text-normal);
+    }
+
+    /* instead of background, change text color for defined highlights */
+    mark.hltr-pink,
+    mark.hltr-red,
+    mark.hltr-orange,
+    mark.hltr-yellow,
+    mark.hltr-green,
+    mark.hltr-cyan,
+    mark.hltr-blue,
+    mark.hltr-purple,
+    mark.hltr-grey {
+      background: transparent !important;
+      background-color: transparent !important;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+
+    /* highlightr compact menu */
+    .menu.highlighterContainer {
+      display: flex !important;
+      width: max-content !important;
+      padding: 0.2rem 0.5rem !important;
+      overflow-x: none !important;
+    }
+    .menu.highlighterContainer .menu-item {
+      padding: 0;
+      margin: 0;
+      border-bottom: transparent;
+      border-radius: 5px;
+
+      justify-content: center;
+      align-items: center;
+
+      aspect-ratio: 1/1;
+    }
+    .menu.highlighterContainer .menu-item .menu-item-title {
+      display: none;
+    }
+    .menu.highlighterContainer .menu-item .menu-item-icon {
+      height: min-content;
+      width: min-content;
+    }
+
+    /* consistent icon stroke width with others */
+    .highlightr-eraser svg path,
+    .highlightr-pen svg path {
+      stroke-width: 0.3px !important;
+    }
+
     //  h1 {
     //   color: black;
     //  }
 }
+
+/* If using Mado Miniflow */
 body:before {
     z-index: 11;
     position: fixed;
