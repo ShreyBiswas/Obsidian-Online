@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/memory-notes/limited-combinatorics/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/memory-notes/limited-combinatorics/"}
 ---
 
 
