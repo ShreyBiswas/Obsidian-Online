@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/memory-notes/write-an-expression-for-max/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/memory-notes/write-an-expression-for-max/"}
 ---
 
 > [!question] Question
