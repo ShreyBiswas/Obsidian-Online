@@ -4,7 +4,6 @@
 
 
 Using [[Memory Notes/Combinatorics\|Combinatorics]], but not all possibilities are valid.
-$asd$
 
 > [!question] SMC 2005: Q16
 > A hockey team consists of 1 goalkeeper, 4 defenders, 4 midfielders, and 2 forwards.
