@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/memory-notes/tidy-boxes/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/memory-notes/tidy-boxes/"}
 ---
 
 
