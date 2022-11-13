@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/memory-notes/sum-of-primes-divisible-by-12/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/memory-notes/sum-of-primes-divisible-by-12/"}
 ---
 
 > [!question] Question
