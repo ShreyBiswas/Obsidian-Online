@@ -9,3 +9,5 @@
 
 > [!check]- Solution
 > First, it's important to realise we don't know what's larger, $x$ or $y$. Because of this, it's helpful to think of expressions that give us a definite number, no matter whether the larger number is first or second.
+> $x+y$ always outputs the total. $x-y$ doesn't, but with the modulus, $|x-y|$ does.
+> The sum $x+y$ could be more meaningful by dividing it by 2, to get the mean: $\frac{x+y}{2}$. This is a little more helpful.
