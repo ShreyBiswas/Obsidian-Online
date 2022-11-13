@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/memory-notes/multiplication-and-subtraction-function/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/memory-notes/multiplication-and-subtraction-function/"}
 ---
 
 > [!question] Question
