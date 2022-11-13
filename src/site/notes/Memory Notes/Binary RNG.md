@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/memory-notes/binary-rng/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/memory-notes/binary-rng/"}
 ---
 
 > [!question] Question
