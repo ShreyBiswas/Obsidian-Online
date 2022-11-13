@@ -1,4 +1,4 @@
 ---
-{"dg-home":true,"dg-publish":true,"permalink":"/asoida/","tags":"gardenEntry","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/asoida/","dgPassFrontmatter":true}
 ---
 
