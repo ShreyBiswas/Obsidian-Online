@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/memory-notes/solving-symmetrical-functions/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/memory-notes/solving-symmetrical-functions/"}
 ---
 
 > [!question] Question
