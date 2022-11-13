@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/memory-notes/modular-arithmetic/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/memory-notes/modular-arithmetic/"}
 ---
 
 
